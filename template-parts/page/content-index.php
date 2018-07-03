@@ -12,17 +12,13 @@
 
 <section class="section section-perex">
     <div class="section-inner container">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#" title="Homepage">Homepage</a></li>
-            <li class="breadcrumb-item"><a href="#" title="Parent page">Parent page</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Current page</li>
-        </ol>
-        <h1>Section perex</h1>
+        Tertiary section
     </div>
 </section>
 
 <section class="section section-primary">
     <div class="section-inner container">
+        <h1>Heading level 1</h1>
         <h2>Heading level 2</h2>
         <ul>
             <li>Unordered list item with <a href="#">link</a></li>
@@ -66,6 +62,21 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
+        <a href="#shp_demo_colorboxDemo" class="colorbox">Colorbox</a>
+        <br />
+        <style>
+            #shp_demo_colorboxDemo { display: none; }
+            #colorbox #shp_demo_colorboxDemo { display: block; }
+        </style>
+        <span id="shp_demo_colorboxDemo">
+                Lorem ipsum.
+            </span>
+        <a href="#" id="shp_demo_showOverlay">Show overlay</a>
+    </div>
+</section>
+
+<section class="section section-primary">
+    <div class="section-inner container">
         <div class="halfs aligned-left">
             <div class="half">
                 <h2>Contact form</h2>
@@ -82,15 +93,77 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
-        <a href="#shp_demo_colorboxDemo" class="colorbox">Colorbox</a>
-        <br />
-        <style>
-            #shp_demo_colorboxDemo { display: none; }
-            #colorbox #shp_demo_colorboxDemo { display: block; }
-        </style>
-        <span id="shp_demo_colorboxDemo">
-                Lorem ipsum.
-            </span>
-        <a href="#" id="shp_demo_showOverlay">Show overlay</a>
+        <div class="alert alert-warning" role="alert">
+            <div class="row">
+                <div class="col-sm-2 col-lg-1 text-center">
+                    <i class="alert-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="col-sm-10 col-lg-11">
+                    <h4 class="alert-heading">Ea possunt paria non esse</h4>
+                    Atqui iste <a href="https://skolka.shoptet.cz/kam-dal/">locus </a>est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            <div class="row">
+                <div class="col-sm-2 col-lg-1 text-center">
+                    <i class="alert-icon fas fa-times-circle"></i>
+                </div>
+                <div class="col-sm-10 col-lg-11">
+                    Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-success" role="alert">
+            <div class="row">
+                <div class="col-sm-2 col-lg-1 text-center">
+                    <i class="alert-icon fas fa-check-circle"></i>
+                </div>
+                <div class="col-sm-10 col-lg-11">
+                    <p>
+                        Atqui iste locus est, Piso, tibi etiam  atque etiam confirmandus, inquam
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>Quisque aliquam tempus ultricies</li>
+                        <li>Morbi condimentum mollis lacinia</li>
+                        <li>Curabitur venenatis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-info" role="alert">
+            <div class="row">
+                <div class="col-sm-2 col-lg-1 text-center">
+                    <i class="alert-icon fas fa-lightbulb"></i>
+                </div>
+                <div class="col-sm-10 col-lg-11">
+                    <p>
+                        Atqui iste locus est, Piso, tibi etiam  atque etiam confirmandus, inquam
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                        <li>Quisque aliquam tempus ultricies</li>
+                        <li>Morbi condimentum mollis lacinia</li>
+                        <li>Curabitur venenatis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">Ea possunt paria non esse</h4>
+            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+        </div>
+        <div class="alert alert-danger" role="alert">
+            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+        </div>
+        <div class="alert alert-success" role="alert">
+            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+        </div>
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <h4 class="alert-heading">Ea possunt paria non esse</h4>
+            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
     </div>
 </section>
