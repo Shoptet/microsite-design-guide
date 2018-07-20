@@ -38,9 +38,3 @@ Go to WP admin and:
 * in justified cases you can make pull request as well for
 git@github.com:Shoptet/microsite-styles.git or
 git@github.com:Shoptet/shoptet-wp-theme.git
-
-## Design guide
-See `shoptet-wp-theme/scaffolding/index.html` 
-
-
-
