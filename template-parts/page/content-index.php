@@ -85,7 +85,7 @@
                 </p>
             </div>
             <div class="half">
-                <?php get_template_part( 'template-parts/page/content', 'contact-form' ); ?>
+                <?php get_template_part( 'template-parts/utils/content', 'contact-form' ); ?>
             </div>
         </div>
     </div>

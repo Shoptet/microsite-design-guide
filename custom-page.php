@@ -3,12 +3,11 @@
 
 <?php
 while ( have_posts() ) : the_post(); ?>
-    <?php get_template_part( 'template-parts/page/content', 'title' ); ?>
-    <?php get_template_part( 'template-parts/page/content', 'content' ); ?>
-    <?php get_template_part( 'src/template-parts/page/content', 'sample' ); ?>
+    <?php get_template_part( 'template-parts/page/content', 'claim' ); ?>
+    <?php get_template_part( 'src/template-parts/page/content', 'index' ); ?>
 <?php
 endwhile;
 get_template_part( 'template-parts/page/content', 'widget' );
 ?>
 
-<?php get_footer();
+<?php get_footer(); ?>
