@@ -22,7 +22,7 @@
     "../scaffolding/vendor/jquery-3.3.1.min.js",
     "../scaffolding/vendor/popper.min.js",
     "../scaffolding/vendor/bs/js/util.js",
-    "../scaffolding/vendor/bs/js/util.js",
+    "../scaffolding/vendor/bs/js/alert.js",
     "../scaffolding/vendor/bs/js/dropdown.js",
     "../scaffolding/vendor/jquery.colorbox-min.js",
     "../scaffolding/shoptet/js/shoptet.js",

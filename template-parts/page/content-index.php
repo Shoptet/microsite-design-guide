@@ -35,10 +35,20 @@
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.
         </p>
+        <blockquote>Proin pulvinar pretium velit, vitae iaculis metus commodo in. Mauris vehicula ligula a nulla facilisis, quis hendrerit odio finibus. Pellentesque vitae pulvinar felis. Donec purus dolor, tincidunt sagittis pulvinar et, ornare eu lacus. Aliquam facilisis ultricies dapibus. In non erat vitae turpis fermentum congue eget ut risus. Sed ultricies varius orci at pharetra. Mauris gravida consectetur erat, a tincidunt ligula convallis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</blockquote>
         <h5>Heading level 5</h5>
         <p>
             Etiam a risus vel lorem eleifend hendrerit in non elit. Cras accumsan enim rhoncus laoreet facilisis. Maecenas faucibus eu ipsum ornare tincidunt. Quisque feugiat, justo at tristique dapibus, erat mi elementum ex, sed tincidunt libero justo ac massa. Aliquam vehicula rutrum ipsum at ornare. Aenean mollis, magna pharetra placerat tincidunt, nunc justo varius magna, et finibus erat orci et sapien. Maecenas dictum lacus in leo elementum, id auctor lectus ornare. Pellentesque odio elit, tempor ut auctor eget, aliquam scelerisque diam. Mauris quam augue, tempus sit amet urna non, vestibulum tincidunt ex. Etiam et viverra erat.
         </p>
+        <nav class="post-navigation" role="navigation">
+            <div class="nav-previous">
+                <a class="btn btn-primary" href="#" rel="prev">« <span>Nunc ac imperdiet eros</span></a>
+            </div>
+            <div class="nav-next">
+                <a class="btn btn-primary" href="#" rel="next"><span>In lectus nunc, vestibulum sit amet ultricies et</span> »</a>
+            </div>
+        </nav>
+
         <h6>Heading level 6</h6>
         <p>
             Integer rhoncus nunc diam, at luctus purus tincidunt sit amet. Nulla a tortor nunc. In ullamcorper feugiat iaculis. Nullam placerat elit nisi, pellentesque vestibulum eros porttitor ut. Integer quis rhoncus nulla. Donec vel ex eros. Aliquam erat volutpat. Integer rutrum lacus eget mauris cursus, nec sodales sapien eleifend. Nunc sodales arcu elit, vitae laoreet elit finibus ac. Aliquam hendrerit, sem ut malesuada cursus, risus mi convallis velit, sit amet luctus risus tellus et dolor.
@@ -77,6 +87,26 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
+        <div class="cta">
+            <h2>Založte si nezávazně vlastní testovací e-shop na Shoptetu</h2>
+            <form action="https://www.shoptet.cz/projectAction/ShoptetTrial/CreateTrialProject/" method="post" name="cta-form">
+                <div>
+                    <input type="hidden" name="formId" value="2">
+                    <span class="form-protection">Nevyplňujte toto pole:</span>
+                    <input type="text" name="surname" class="form-protection">
+                </div>
+                 <div class="fieldset">
+                    <input type="text" name="email" placeholder="Vložte e-mail" required="required">
+                    <button type="submit"><strong>Vyzkoušejte si nás</strong> <br>30 dní zdarma a bez závazků</button>
+                </div>
+                <div class="footer-privacy-policy">Vložením e-mailu souhlasíte s <a href="https://www.shoptet.cz/podminky-ochrany-osobnich-udaju/" target="_blank">podmínkami ochrany osobních údajů</a></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="section section-primary">
+    <div class="section-inner container">
         <div class="halfs aligned-left">
             <div class="half">
                 <h2>Contact form</h2>
@@ -93,9 +123,10 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
-        <div class="alert alert-warning" role="alert">
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <div class="row">
-                <div class="col-sm-2 col-lg-1 text-center">
+                <div class="col-2 col-lg-1 text-center">
                     <i class="alert-icon fas fa-exclamation-circle"></i>
                 </div>
                 <div class="col-sm-10 col-lg-11">
@@ -106,7 +137,7 @@
         </div>
         <div class="alert alert-danger" role="alert">
             <div class="row">
-                <div class="col-sm-2 col-lg-1 text-center">
+                <div class="col-2 col-lg-1 text-center">
                     <i class="alert-icon fas fa-times-circle"></i>
                 </div>
                 <div class="col-sm-10 col-lg-11">
@@ -116,7 +147,7 @@
         </div>
         <div class="alert alert-success" role="alert">
             <div class="row">
-                <div class="col-sm-2 col-lg-1 text-center">
+                <div class="col-2 col-lg-1 text-center">
                     <i class="alert-icon fas fa-check-circle"></i>
                 </div>
                 <div class="col-sm-10 col-lg-11">
@@ -132,9 +163,10 @@
                 </div>
             </div>
         </div>
-        <div class="alert alert-info" role="alert">
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <div class="row">
-                <div class="col-sm-2 col-lg-1 text-center">
+                <div class="col-2 col-lg-1 text-center">
                     <i class="alert-icon fas fa-lightbulb"></i>
                 </div>
                 <div class="col-sm-10 col-lg-11">
@@ -151,19 +183,35 @@
             </div>
         </div>
         <div class="alert alert-warning" role="alert">
-            <h4 class="alert-heading">Ea possunt paria non esse</h4>
-            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="alert-heading">Ea possunt paria non esse</h4>
+                    Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
         </div>
         <div class="alert alert-danger" role="alert">
-            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+            <div class="row">
+                <div class="col-12">
+                    Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
         </div>
         <div class="alert alert-success" role="alert">
-            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+            <div class="row">
+                <div class="col-12">
+                    Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
         </div>
         <div class="alert alert-info alert-dismissible" role="alert">
-            <h4 class="alert-heading">Ea possunt paria non esse</h4>
-            Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="alert-heading">Ea possunt paria non esse</h4>
+                    Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam
+                </div>
+            </div>
         </div>
     </div>
 </section>
