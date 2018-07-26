@@ -72,21 +72,6 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
-        <a href="#shp_demo_colorboxDemo" class="colorbox">Colorbox</a>
-        <br />
-        <style>
-            #shp_demo_colorboxDemo { display: none; }
-            #colorbox #shp_demo_colorboxDemo { display: block; }
-        </style>
-        <span id="shp_demo_colorboxDemo">
-                Lorem ipsum.
-            </span>
-        <a href="#" id="shp_demo_showOverlay">Show overlay</a>
-    </div>
-</section>
-
-<section class="section section-primary">
-    <div class="section-inner container">
         <div class="cta">
             <h2>Založte si nezávazně vlastní testovací e-shop na Shoptetu</h2>
             <form action="https://www.shoptet.cz/projectAction/ShoptetTrial/CreateTrialProject/" method="post" name="cta-form">
