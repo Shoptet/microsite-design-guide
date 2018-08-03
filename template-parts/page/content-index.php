@@ -82,7 +82,7 @@
                 </div>
                  <div class="fieldset">
                     <input type="text" name="email" placeholder="Vložte e-mail" required="required">
-                    <button type="submit"><strong>Vyzkoušejte si nás</strong> <br>30 dní zdarma a bez závazků</button>
+                    <button type="submit"><strong>VYZKOUŠET ZDARMA</strong></button>
                 </div>
                 <div class="footer-privacy-policy">Vložením e-mailu souhlasíte s <a href="https://www.shoptet.cz/podminky-ochrany-osobnich-udaju/" target="_blank">podmínkami ochrany osobních údajů</a></div>
             </form>
