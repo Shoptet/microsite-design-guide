@@ -92,6 +92,62 @@
 
 <section class="section section-primary">
     <div class="section-inner container">
+        <h2>Custom items</h2>
+        <form>
+            <fieldset>
+                <p id="filter-form" class="filter">
+                    <label for="filterCategories">Kategorie:</label>
+                    <select name="category" id="filterCategories" class="custom-select">
+                        <option value="katalog" selected="">Všechny kategorie</option>
+                        <option value="01">Lorem ipsum</option>
+                        <option value="02">dolor sit amet</option>
+                        <option value="03">consectetur adipiscing elit</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="radio" id="radio-01">
+                    <label class="custom-control-label" for="radio-01">Lorem ipsum</label>
+                </p>
+                <p class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="radio" id="radio-02">
+                    <label class="custom-control-label" for="radio-02">Lorem ipsum</label>
+                </p>
+                <p class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="checkbox-01" id="checkbox-01">
+                    <label class="custom-control-label" for="checkbox-01">Lorem ipsum</label>
+                </p>
+                <p class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="checkbox-02" id="checkbox-02">
+                    <label class="custom-control-label" for="checkbox-02">Lorem ipsum</label>
+                </p>
+            </fieldset>
+        </form>
+        <h3>Buttons</h3>
+        <p>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </p>
+        <p>
+            <button type="button" class="btn btn-default btn-lg">Large button</button>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+        </p>
+        <p>
+            <button type="button" class="btn btn-block">Full width button</button>
+        </p>
+    </div>
+</section>
+
+<section class="section section-primary">
+    <div class="section-inner container">
         <div class="halfs aligned-left">
             <div class="half">
                 <h2>Contact form</h2>
@@ -200,3 +256,80 @@
         </div>
     </div>
 </section>
+<section class="section section-secondary">
+    <div class="section-inner container">
+        <div class="content">
+            <div class="content-box main-content">
+                <div class="content-box-inner">
+                    <h1 itemprop="name">Heading level 1</h1>
+                </div>
+                <div class="content-box-inner">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.</p>
+                    <h2>Heading level 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.</p>
+                </div>
+            </div>
+            <div class="content-box sidebar sidebar-right">
+                <div class="content-box-inner content-box-caption">
+                    <img src="https://dp.shoptet.cz/wp-content/themes/shoptet-wp-theme/src/dist/img/claim.png" alt="">
+                </div>
+                <div class="content-box-inner">
+                    <h3>Heading level 3</h3>
+                    <table class="service-info-table">
+                        <tbody>
+                            <tr>
+                                <th>Lorem ipsum</th>
+                                <td>dolor sit amet</td>
+                            </tr>
+                            <tr>
+                                <th>Proin iaculis vestibulum</th>
+                                <td>magna nec auctor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content main-content full-content">
+            <div class="content-inner">
+                <div class="content-box">
+                    <div class="content-box-inner">
+                        <h2>Heading level 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-primary">
+    <div class="section-inner container">
+        <div class="halfs aligned-left">
+            <div class="half">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.</p>
+            </div>
+            <div class="half">
+                <p class="text-center"><img src="https://dp.shoptet.cz/wp-content/themes/shoptet-wp-theme/src/dist/img/claim.png" alt=""></p>
+            </div>
+        </div>
+        <div class="halfs aligned-right">
+            <div class="half">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis vestibulum magna nec auctor. Donec non nulla id lectus semper dictum vel sit amet nunc. Nulla a velit odio. Morbi convallis tempus arcu, in eleifend erat porta ac. Mauris maximus ornare orci, in aliquam diam viverra et. Praesent pretium, neque quis tristique tincidunt, metus arcu laoreet enim, vel lobortis lectus nibh vel orci. Mauris a aliquam ligula. Praesent id lectus et quam faucibus blandit eget vitae libero. In id imperdiet purus, eget hendrerit lacus. Ut cursus quis velit quis maximus.</p>
+            </div>
+            <div class="half">
+                <p class="text-center"><img src="https://dp.shoptet.cz/wp-content/themes/shoptet-wp-theme/src/dist/img/claim.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-primary">
+    <div class="section-inner container">
+        <?php get_template_part( 'template-parts/page/content', 'widget' ); ?>
+    </div>
+</section>
+
